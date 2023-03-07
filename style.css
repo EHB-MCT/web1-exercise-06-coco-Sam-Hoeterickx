@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    margin-top: 50px 0 0 0;
+    font-family: 'Abel', sans-serif;
+}
+
+
+
+.wrapper{
+    background-image: url("images/coco.jpg");
+    width: 1200px;
+    height: 750px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.item{
+    padding-left: 600px;
+    padding-right: 50px;
+    
+}
+
+.item img{
+    width: 300px;
+    margin-left: 120px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.item h1{
+    color: white;
+    font-weight: normal ;
+}
+
+.item h2{
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.item a{
+    position: relative;
+    float: left;
+    background-color: #d16b24;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.item a:hover {
+    background-color: #FFF;
+    color: #f38030;
+}
